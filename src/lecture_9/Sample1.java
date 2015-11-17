@@ -3,6 +3,7 @@ package lecture_9;
 import java.lang.annotation.Annotation;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 import javafx.scene.Parent;
@@ -21,7 +22,7 @@ class Perent {
 
 
 public class Sample1 {
-	public static void main(String[] args) throws NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException {
+	public static void main(String[] args) throws NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 		Class<Perent> c = Perent.class;
 		
 		
@@ -34,5 +35,7 @@ public class Sample1 {
 		Method m = c.getMethod("print", int.class, int.class);
 		
 		Perent p = c.newInstance();
+		m.invoke(p, 10, 20);
+		
 	}
 }
