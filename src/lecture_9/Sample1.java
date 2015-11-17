@@ -25,7 +25,8 @@ public class Sample1 {
 		for(Method m : c.getMethods())
 			System.out.println(m.getName());
 		Annotation an = c.getAnnotations()[0];
-		
+		if (an instanceof MyAnn)
+			System.out.println("class Perent is annoteded myAnn");
 		
 	}
 }
