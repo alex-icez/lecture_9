@@ -1,8 +1,9 @@
 package lecture_9;
 
 import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 
-@Retention()
+@Retention(RetentionPolicy.RUNTIME)
 @interface MyAnn {
 }
 
