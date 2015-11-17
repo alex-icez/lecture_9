@@ -21,7 +21,7 @@ class Perent {
 
 
 public class Sample1 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NoSuchMethodException, SecurityException {
 		Class<Perent> c = Perent.class;
 		
 		
@@ -31,7 +31,7 @@ public class Sample1 {
 		if (an instanceof MyAnn)
 			System.out.println("class Perent is annoteded myAnn");
 		
-		c.getMethod("print", int.class, )
+		Method m = c.getMethod("print", int.class, int.class);
 		
 	
 	}
