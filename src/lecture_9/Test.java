@@ -1,10 +1,19 @@
 package lecture_9;
 
+enum OS {
+	Windows, UNIX, MacOS
+}
+
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		OS o = OS.UNIX;
+		OS b = OS.Windows;
 
+		System.out.println(o == b);
+		
+		
 	}
 
 }
