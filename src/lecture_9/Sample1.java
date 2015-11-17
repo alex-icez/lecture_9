@@ -36,6 +36,6 @@ public class Sample1 {
 		
 		Perent p = c.newInstance();
 		m.invoke(p, 10, 20);
-		
+		p.print(10, 20);
 	}
 }
