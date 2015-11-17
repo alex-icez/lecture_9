@@ -25,7 +25,7 @@ public class Sample3 {
 		for(Integer i : s) 
 			System.out.println(i);
 		
-		Itterator<Integer>  iter = s.iterator();
+		Iterator<Integer> iter = s.iterator();
 		
 		
 		
