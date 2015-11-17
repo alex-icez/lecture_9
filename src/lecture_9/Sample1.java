@@ -6,8 +6,8 @@ class Perent {
 }
 
 class Child extends Perent {
-	@Override
 	void print(int a) {
+
 	}
 }
 
