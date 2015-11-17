@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Sample3 {
 
@@ -16,7 +17,7 @@ public class Sample3 {
 		l.add(434);
 		Integer r = l.get(0);
 		
-		Set<Integer> s = new HashSet<>();
+		Set<Integer> s = new TreeSet<>();//new HashSet<>();
 		s.add(1);
 		s.add(2);
 		s.add(1);
