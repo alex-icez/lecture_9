@@ -31,7 +31,7 @@ public class Test {
 		System.out.println(o);
 		//o.compareTo(o);
 		OS r = OS.valueOf("UNIX");
-
+		OS arr[] = OS.values();
 	}
 
 }
