@@ -15,8 +15,8 @@ import javafx.scene.Parent;
 
 @MyAnn(value = 10)
 class Perent {
-	@MyAnn
-	public void print(@MyAnn int a, int b) {
+	@MyAnn(value = 20)
+	public void print(@MyAnn(value = 20) int a, int b) {
 		System.out.println(a + " + " + b);
 	}
 }
