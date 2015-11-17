@@ -7,7 +7,7 @@ class Perent {
 
 class Child extends Perent {
 	@Override
-	void printdsa() {
+	void print(int a) {
 	}
 }
 
