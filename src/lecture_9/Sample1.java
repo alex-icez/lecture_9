@@ -10,9 +10,10 @@ import javafx.scene.Parent;
 
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnn {
+	int value();
 }
 
-@MyAnn
+@MyAnn(value = 10)
 class Perent {
 	@MyAnn
 	public void print(@MyAnn int a, int b) {
