@@ -14,7 +14,8 @@ import javafx.scene.Parent;
 @MyAnn
 class Perent {
 	@MyAnn
-	public void print(int a) {
+	public void print(int a, int b) {
+		System.out.println(a + " + " + b);
 	}
 }
 
@@ -22,11 +23,16 @@ class Perent {
 public class Sample1 {
 	public static void main(String[] args) {
 		Class<Perent> c = Perent.class;
+		
+		
 		for(Method m : c.getMethods())
 			System.out.println(m.getName());
 		Annotation an = c.getAnnotations()[0];
 		if (an instanceof MyAnn)
 			System.out.println("class Perent is annoteded myAnn");
 		
+		c.getMethod("print", int.class, )
+		
+	
 	}
 }
