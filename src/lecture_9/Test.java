@@ -1,7 +1,7 @@
 package lecture_9;
 
 enum OS {
-	Windows, UNIX, MacOS;
+	Windows(1980), UNIX(1900), MacOS(3000);
 	int year;
 	
 	private OS(int year) {
