@@ -3,6 +3,7 @@ package lecture_9;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -26,7 +27,9 @@ public class Sample3 {
 			System.out.println(i);
 		
 		Iterator<Integer> iter = s.iterator();
-		
+		while(iter.hasNext()) {
+			System.out.println(iter.next());
+		}
 		
 		
 	}
