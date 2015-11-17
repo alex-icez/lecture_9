@@ -21,7 +21,7 @@ class Perent {
 
 
 public class Sample1 {
-	public static void main(String[] args) throws NoSuchMethodException, SecurityException {
+	public static void main(String[] args) throws NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException {
 		Class<Perent> c = Perent.class;
 		
 		
@@ -32,7 +32,7 @@ public class Sample1 {
 			System.out.println("class Perent is annoteded myAnn");
 		
 		Method m = c.getMethod("print", int.class, int.class);
-		m.ge
-	
+		
+		Perent p = c.newInstance();
 	}
 }
