@@ -28,6 +28,7 @@ public class Test {
 		System.out.println(o == b);
 		
 		System.out.println(o.ordinal());
+		System.out.println(o);
 		
 
 	}
