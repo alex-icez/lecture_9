@@ -6,7 +6,8 @@ package lecture_9;
 
 @MyAnn
 class Perent {
-	void print() {
+	@MyAnn
+	void print(@MyAnn int a) {
 	}
 }
 
