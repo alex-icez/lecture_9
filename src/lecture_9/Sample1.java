@@ -4,6 +4,8 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
 
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotated;
+
 import javafx.scene.Parent;
 
 @Retention(RetentionPolicy.RUNTIME)
@@ -23,6 +25,8 @@ public class Sample1 {
 		Class<Perent> c = Perent.class;
 		for(Method m : c.getMethods())
 			System.out.println(m.getName());
+		Annotated an = c.getAnnotations()[0];
+		
 		
 	}
 }
