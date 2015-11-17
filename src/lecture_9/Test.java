@@ -2,7 +2,7 @@ package lecture_9;
 
 enum OS {
 	Windows(1980), UNIX(1900), MacOS(3000);
-	int year;
+	public int year;
 	
 	private OS(int year) {
 		this.year = year;
