@@ -21,14 +21,13 @@ class MyOS {
 
 public class Test {
 
-	public static void main(String[] args) {
-		MyOS o1 = MyOS.Windows;
-		MyOS o2 = new MyOS();
-		
+	public static void main(String[] args) {		
 		OS o = OS.UNIX;
 		OS b = OS.Windows;
 
 		System.out.println(o == b);
+		
+		System.out.println(o.ordinal());
 		
 
 	}
