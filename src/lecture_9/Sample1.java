@@ -5,9 +5,9 @@ class Perent {
 	}
 }
 
-class Child {
+class Child extends Perent {
 	@Override
-	void print() {
+	void printdsa() {
 	}
 }
 
