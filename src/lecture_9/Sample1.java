@@ -3,10 +3,11 @@ package lecture_9;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
+import javafx.scene.Parent;
+
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnn {
 }
-
 
 @MyAnn
 class Perent {
@@ -16,12 +17,9 @@ class Perent {
 }
 
 
-
 public class Sample1 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Class<Parent> c = Perent.class;
 
 	}
-
 }
