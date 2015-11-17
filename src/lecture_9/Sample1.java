@@ -13,7 +13,7 @@ import javafx.scene.Parent;
 @MyAnn
 class Perent {
 	@MyAnn
-	void print(int a) {
+	public void print(int a) {
 	}
 }
 
