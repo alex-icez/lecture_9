@@ -1,15 +1,26 @@
 package lecture_9;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 public class Sample3 {
 
 	public static void main(String[] args) {
-		List<Integer> l = new ArrayList<>();//new LinkedList<>();
+		List<Integer> l = new ArrayList<>();//
+		new LinkedList<>();
 		l.add(10);
 		l.add(434);
 		Integer r = l.get(0);
+		
+		Set<Integer> s = new HashSet<>();
+		s.add(1);
+		s.add(2);
+		s.add(1);
+		
+		
 	}
 }
