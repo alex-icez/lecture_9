@@ -32,6 +32,8 @@ public class Test {
 		//o.compareTo(o);
 		OS r = OS.valueOf("UNIX");
 		OS arr[] = OS.values();
+		for(OS os : arr)
+			System.out.println(os);
 	}
 
 }
