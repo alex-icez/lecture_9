@@ -1,5 +1,8 @@
 package lecture_9;
 
+import java.lang.annotation.Retention;
+
+@Retention()
 @interface MyAnn {
 }
 
@@ -7,7 +10,7 @@ package lecture_9;
 @MyAnn
 class Perent {
 	@MyAnn
-	void print(@MyAnn int a) {
+	void print(int a) {
 	}
 }
 
