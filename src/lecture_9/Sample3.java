@@ -30,7 +30,7 @@ public class Sample3 {
 		while(iter.hasNext()) {
 			System.out.println(iter.next());
 		}
-		
+		SortedSet<Integer> ss = new TreeSet<>();
 		
 	}
 }
