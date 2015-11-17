@@ -30,9 +30,11 @@ public class Sample1 {
 		for(Method m : c.getMethods())
 			System.out.println(m.getName());
 		Annotation an = c.getAnnotations()[0];
-		if (an instanceof MyAnn)
+		if (an instanceof MyAnn) {
 			System.out.println("class Perent is annoteded myAnn");
-		
+			int v = ((MyAnn)an).value();
+			System.out.println(v);
+		}
 		Method m = c.getMethod("print", int.class, int.class);
 		
 		Perent p = c.newInstance();
