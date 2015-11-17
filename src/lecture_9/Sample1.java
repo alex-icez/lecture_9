@@ -19,7 +19,7 @@ class Perent {
 
 public class Sample1 {
 	public static void main(String[] args) {
-		Class<Parent> c = Perent.class;
+		Class<Perent> c = Perent.class;
 
 	}
 }
