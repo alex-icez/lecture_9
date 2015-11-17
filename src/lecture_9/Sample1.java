@@ -5,6 +5,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
 
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotated;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotation;
 
 import javafx.scene.Parent;
 
@@ -25,7 +26,7 @@ public class Sample1 {
 		Class<Perent> c = Perent.class;
 		for(Method m : c.getMethods())
 			System.out.println(m.getName());
-		Annotated an = c.getAnnotations()[0];
+		Annotation an = c.getAnnotations()[0];
 		
 		
 	}
