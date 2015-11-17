@@ -1,5 +1,10 @@
 package lecture_9;
 
+@interface MyAnn {
+}
+
+
+@MyAnn
 class Perent {
 	void print() {
 	}
