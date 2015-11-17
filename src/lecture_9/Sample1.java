@@ -17,9 +17,6 @@ class Perent {
 	public void print(@MyAnn int a, int b) {
 		System.out.println(a + " + " + b);
 	}
-	
-	public Perent(int a) {
-	}
 }
 
 
