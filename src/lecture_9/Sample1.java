@@ -15,11 +15,6 @@ class Perent {
 	}
 }
 
-class Child extends Perent {
-	void print(int a) {
-
-	}
-}
 
 
 public class Sample1 {
