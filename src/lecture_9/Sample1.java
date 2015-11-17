@@ -5,6 +5,12 @@ class Perent {
 	}
 }
 
+class Child {
+	@Override
+	void print() {
+	}
+}
+
 
 public class Sample1 {
 
