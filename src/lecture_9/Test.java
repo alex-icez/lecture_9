@@ -4,6 +4,15 @@ enum OS {
 	Windows, UNIX, MacOS
 }
 
+
+class MyOS {
+	public final static MyOS Windows = new MyOS();
+	
+	
+	private MyOS() {
+	}
+}
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -12,7 +21,7 @@ public class Test {
 
 		System.out.println(o == b);
 		
-		OS a = new OS();
+
 	}
 
 }
