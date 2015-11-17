@@ -1,11 +1,9 @@
 package lecture_9;
 
+import java.lang.annotation.Annotation;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
-
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotated;
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotation;
 
 import javafx.scene.Parent;
 
