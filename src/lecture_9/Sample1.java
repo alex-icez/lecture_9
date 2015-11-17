@@ -14,7 +14,7 @@ import javafx.scene.Parent;
 @MyAnn
 class Perent {
 	@MyAnn
-	public void print(int a, int b) {
+	public void print(@MyAnn int a, int b) {
 		System.out.println(a + " + " + b);
 	}
 }
@@ -32,7 +32,7 @@ public class Sample1 {
 			System.out.println("class Perent is annoteded myAnn");
 		
 		Method m = c.getMethod("print", int.class, int.class);
-		
+		m.ge
 	
 	}
 }
