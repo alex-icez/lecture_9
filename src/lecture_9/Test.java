@@ -29,7 +29,8 @@ public class Test {
 		
 		System.out.println(o.ordinal());
 		System.out.println(o);
-		
+		//o.compareTo(o);
+		OS r = OS.valueOf("UNIX");
 
 	}
 
