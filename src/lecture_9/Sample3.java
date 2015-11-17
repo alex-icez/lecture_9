@@ -20,6 +20,8 @@ public class Sample3 {
 		s.add(1);
 		s.add(2);
 		s.add(1);
+		for(Integer i : s) 
+			System.out.println(i);
 		
 		
 	}
