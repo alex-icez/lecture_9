@@ -1,14 +1,19 @@
 package lecture_9;
 
 enum OS {
-	Windows, UNIX, MacOS
+	Windows, UNIX, MacOS;
+	int year;
+	
+	private OS(int year) {
+		this.year = year;
+	}
 }
-
 
 class MyOS {
 	public final static MyOS Windows = new MyOS();
 	public final static MyOS UNIX = new MyOS();
 	public final static MyOS MacOS = new MyOS();
+	
 	
 	private MyOS() {
 	}
